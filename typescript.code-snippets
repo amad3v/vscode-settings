@@ -1,0 +1,106 @@
+{   
+	// Place your snippets for typescriptreact here. Each snippet is defined under a snippet name and has a prefix, body and
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+  
+	"FC without Interface": {
+	  "prefix": "rfcf",
+	  "body": [
+		"import React from 'react';",
+		"",
+		"export const $TM_FILENAME_BASE: React.FC = () => {",
+		"  return (",
+		"    <>",
+		"        ",
+		"    </>",
+		"  );",
+		"};"
+	  ],
+	  "description": "Fucntional Component"
+	},
+  
+	"FC with interface": {
+	  "prefix": "rfci",
+	  "body": [
+		"import React from 'react';",
+		"",
+		"interface ${TM_FILENAME_BASE}Props{",
+		"",
+		"}",
+		"",
+		"export type ${TM_FILENAME_BASE}Signature = (",
+		"   props: ${TM_FILENAME_BASE}Props",
+		") => React.ReactElement;",
+		"",
+		"export const $TM_FILENAME_BASE: ${TM_FILENAME_BASE}Signature = () => {",
+		"  return (",
+		"    <>",
+		"        ",
+		"    </>",
+		"  );",
+		"};"
+	  ],
+	  "description": "Fucntional Component with interface"
+	},
+	"Fucntional Component Default": {
+	  "prefix": "rfcfd",
+	  "body": [
+		"import React from 'react';",
+		"",
+		"const $TM_FILENAME_BASE: React.FC = () => {",
+		"  return (",
+		"    <>",
+		"        ",
+		"    </>",
+		"  );",
+		"};",
+		"",
+		"export default $TM_FILENAME_BASE"
+	  ],
+	  "description": "Fucntional Component with default export"
+	},
+	"Import React": {
+	  "prefix": "imr",
+	  "body": ["import React from 'react';", ""],
+	  "description": "Import React"
+	},
+	"Import React DOM": {
+	  "prefix": "imr",
+	  "body": ["import ReactDOM from 'react-dom';", ""],
+	  "description": "Import React DOM"
+	},
+	"React Component Storybook": {
+	  "prefix": "sbrc",
+	  "body": [
+		"import React from 'react';",
+		"// also exported from '@storybook/react' if you can deal with breaking changes in 6.1",
+		"import { Story, Meta } from '@storybook/react/types-6-0';",
+		"// import { ${TM_FILENAME_BASE/(.*).stories/$1/}, ${TM_FILENAME_BASE/(.*).stories/$1/}Props } from '';",
+		"",
+		"export default {",
+		"  title: '$section/${TM_FILENAME_BASE/(.*).stories/$1/}',",
+		"  component: ${TM_FILENAME_BASE/(.*).stories/$1/},",
+		"  // argTypes: {",
+		"  //   backgroundColor: { control: 'color' },",
+		"  // },",
+		"} as Meta;",
+		"",
+		"const Template: Story<${TM_FILENAME_BASE/(.*).stories/$1/}Props> = (args) => <${TM_FILENAME_BASE/(.*).stories/$1/} {...args} />;",
+		"",
+		"export const $name = Template.bind({});",
+		"$name.args = {};"
+	  ],
+	  "description": "Create a story for a react component"
+	}
+  }
+  

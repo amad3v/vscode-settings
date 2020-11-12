@@ -1,0 +1,74 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.matchBrackets": "never",
+  "workbench.colorTheme": "Bluloco Dark Italic",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "editor.suggest.showStatusBar": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.lineHeight": 0,
+  "explorer.decorations.badges": true,
+  "material-icon-theme.activeIconPack": "nest",
+  "material-icon-theme.folders.color": "#0069c9",
+  "workbench.sideBar.location": "right",
+  "workbench.editor.enablePreview": false,
+  "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero', 'onum'",
+  "editor.fontSize": 15,
+  "python.formatting.provider": "black",
+  "html.format.enable": true,
+  "terminal.integrated.cursorStyle": "underline",
+  "editor.cursorBlinking": "smooth",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.renameOnType": true,
+  "editor.fontFamily": "'Operator Mono Lig','Fira Code Retina'",
+  "editor.fontWeight": "500",
+  "bracket-pair-colorizer-2.forceUniqueOpeningColor": true,
+  "bracket-pair-colorizer-2.forceIterationColorCycle": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "workbench.colorCustomizations": {
+    "scrollbarSlider.background": "#3691ff50",
+    "scrollbarSlider.activeBackground": "#3691ff80",
+    "scrollbarSlider.hoverBackground": "#3691ff",
+    "terminal.integrated.fontFamily": "'Operator Mono Lig'",
+    "terminal.integrated.fontSize": 15,
+    /* https://glitchbone.github.io/vscode-base16-term/*/
+    "terminal.background": "#090300"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.autoSave": "off",
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "workbench.enableExperiments": false,
+  "code-runner.enableAppInsights": false
+}
