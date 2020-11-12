@@ -70,5 +70,10 @@
   "editor.formatOnSave": true,
   "liveServer.settings.donotShowInfoMsg": true,
   "workbench.enableExperiments": false,
-  "code-runner.enableAppInsights": false
+  "code-runner.enableAppInsights": false,
+    "files.exclude": {
+    ".idea": true,
+    ".vscode": true,
+    "node_modules": true
+  }
 }
