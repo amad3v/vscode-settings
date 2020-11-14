@@ -28,9 +28,9 @@
     "source.fixAll.eslint": true
   },
   "workbench.colorCustomizations": {
-    "scrollbarSlider.background": "#3691ff50",
-    "scrollbarSlider.activeBackground": "#3691ff80",
-    "scrollbarSlider.hoverBackground": "#3691ff",
+    "scrollbarSlider.background": "#3691ff",
+    "scrollbarSlider.activeBackground": "#ff4b5c",
+    "scrollbarSlider.hoverBackground": "#81b214",
     "terminal.integrated.fontFamily": "'Operator Mono Lig'",
     "terminal.integrated.fontSize": 15,
     /* https://glitchbone.github.io/vscode-base16-term/*/
@@ -71,7 +71,7 @@
   "liveServer.settings.donotShowInfoMsg": true,
   "workbench.enableExperiments": false,
   "code-runner.enableAppInsights": false,
-    "files.exclude": {
+  "files.exclude": {
     ".idea": true,
     ".vscode": true,
     "node_modules": true

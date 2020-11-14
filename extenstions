@@ -4,6 +4,7 @@
 # code --list-extensions | xargs -L 1 echo code --install-extension > install
 
 code --install-extension alefragnani.project-manager
+code --install-extension apollographql.vscode-apollo
 code --install-extension CoenraadS.bracket-pair-colorizer-2
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension ecmel.vscode-html-css
@@ -23,7 +24,9 @@ code --install-extension pranaygp.vscode-css-peek
 code --install-extension rafamel.subtle-brackets
 code --install-extension ritwickdey.LiveServer
 code --install-extension ryanluker.vscode-coverage-gutters
+code --install-extension shakram02.bash-beautify
 code --install-extension SirTori.indenticator
+code --install-extension timonwong.shellcheck
 code --install-extension uloco.theme-bluloco-dark
 code --install-extension usernamehw.errorlens
 code --install-extension VisualStudioExptTeam.vscodeintellicode
