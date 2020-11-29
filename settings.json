@@ -1,7 +1,13 @@
 {
+  "json.schemas": [
+    {
+      "fileMatch": ["cosmos.config.json"],
+      "url": "http://json.schemastore.org/cosmos-config"
+    }
+  ],
   "workbench.iconTheme": "material-icon-theme",
-  "editor.matchBrackets": "never",
-  "workbench.colorTheme": "Bluloco Dark Italic",
+  "editor.matchBrackets": false,
+  "workbench.colorTheme": "Moonlight II Italic",
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "editor.suggest.showStatusBar": true,
@@ -13,7 +19,7 @@
   "workbench.sideBar.location": "right",
   "workbench.editor.enablePreview": false,
   "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero', 'onum'",
-  "editor.fontSize": 15,
+  "editor.fontSize": 16,
   "python.formatting.provider": "black",
   "html.format.enable": true,
   "terminal.integrated.cursorStyle": "underline",
@@ -28,6 +34,20 @@
     "source.fixAll.eslint": true
   },
   "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#3691ff",
+    "activityBar.activeBorder": "#f6f4e5",
+    "activityBar.background": "#3691ff",
+    "activityBar.foreground": "#131642",
+    "activityBar.inactiveForeground": "#f7f7f799",
+    "activityBarBadge.background": "#f5e5f6",
+    "activityBarBadge.foreground": "#e2324b",
+    "statusBar.background": "#1b72cb",
+    "statusBar.foreground": "#f7f7f7",
+    "statusBarItem.hoverBackground": "#3691ff",
+    "titleBar.activeBackground": "#1b72cb",
+    "titleBar.activeForeground": "#f7f7f7",
+    "titleBar.inactiveBackground": "#1b72cb99",
+    "titleBar.inactiveForeground": "#f7f7f799",
     "scrollbarSlider.background": "#3691ff",
     "scrollbarSlider.activeBackground": "#ff4b5c",
     "scrollbarSlider.hoverBackground": "#81b214",
@@ -75,5 +95,9 @@
     ".idea": true,
     ".vscode": true,
     "node_modules": true
-  }
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "update.mode": "none"
 }

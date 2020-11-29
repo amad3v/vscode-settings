@@ -5,19 +5,32 @@
 
 code --install-extension alefragnani.project-manager
 code --install-extension apollographql.vscode-apollo
+code --install-extension atomiks.moonlight
+code --install-extension bpruitt-goddard.mermaid-markdown-syntax-highlighting
+code --install-extension christian-kohler.path-intellisense
 code --install-extension CoenraadS.bracket-pair-colorizer-2
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension ecmel.vscode-html-css
+code --install-extension ee92.folderize
+code --install-extension EliverLara.sweet-vscode
+code --install-extension EliverLara.sweet-vscode-icons
 code --install-extension esbenp.prettier-vscode
 code --install-extension formulahendry.code-runner
+code --install-extension GraphQL.vscode-graphql
+code --install-extension hangxingliu.vscode-systemd-support
+code --install-extension hediet.vscode-drawio
 code --install-extension hwencc.html-tag-wrapper
+code --install-extension JaimeOlivares.yuml
 code --install-extension jpoissonnier.vscode-styled-components
 code --install-extension k--kato.intellij-idea-keybindings
+code --install-extension kumar-harsh.graphql-for-vscode
 code --install-extension miclo.sort-typescript-imports
 code --install-extension mikestead.dotenv
+code --install-extension ms-azuretools.vscode-docker
 code --install-extension ms-python.python
 code --install-extension ms-python.vscode-pylance
 code --install-extension ms-toolsai.jupyter
+code --install-extension piotrpalarz.vscode-gitignore-generator
 code --install-extension PKief.material-icon-theme
 code --install-extension pnp.polacode
 code --install-extension pranaygp.vscode-css-peek
@@ -26,14 +39,19 @@ code --install-extension ritwickdey.LiveServer
 code --install-extension ryanluker.vscode-coverage-gutters
 code --install-extension shakram02.bash-beautify
 code --install-extension SirTori.indenticator
+code --install-extension sketchbuch.vsc-quokka-statusbar
 code --install-extension timonwong.shellcheck
 code --install-extension uloco.theme-bluloco-dark
 code --install-extension usernamehw.errorlens
 code --install-extension VisualStudioExptTeam.vscodeintellicode
+code --install-extension vstirbu.vscode-mermaid-preview
+code --install-extension WallabyJs.quokka-vscode
+code --install-extension wayou.vscode-todo-highlight
 code --install-extension wix.vscode-import-cost
 code --install-extension Wscats.eno
 code --install-extension yzhang.markdown-all-in-one
 code --install-extension zhuangtongfa.material-theme
 code --install-extension Zignd.html-css-class-completion
+
 
 exit 0
