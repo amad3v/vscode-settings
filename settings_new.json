@@ -1,0 +1,173 @@
+{
+  "json.schemas": [
+    {
+      "fileMatch": [
+        "cosmos.config.json"
+      ],
+      "url": "http://json.schemastore.org/cosmos-config"
+    },
+    {
+      "fileMatch": [
+        "/zapp.json"
+      ],
+      "url": "file:///home/amad3v/.vscode-oss/extensions/ibm.zopeneditor-1.1.3/resources/zapp-schema-0.0.1.json"
+    }
+  ],
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.matchBrackets": false,
+  "workbench.colorTheme": "Moonlight II Italic",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "editor.suggest.showStatusBar": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.lineHeight": 0,
+  "explorer.decorations.badges": true,
+  "material-icon-theme.activeIconPack": "nest",
+  "material-icon-theme.folders.color": "#0069c9",
+  "workbench.sideBar.location": "right",
+  "workbench.editor.enablePreview": false,
+  "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero', 'onum'",
+  "editor.fontSize": 16,
+  "python.formatting.provider": "autopep8",
+  "html.format.enable": true,
+  "terminal.integrated.cursorStyle": "underline",
+  "editor.cursorBlinking": "smooth",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.linkedEditing": true,
+  "editor.fontFamily": "'Operator Mono Lig','Fira Code Retina'",
+  "editor.fontWeight": "500",
+  "bracket-pair-colorizer-2.forceUniqueOpeningColor": true,
+  "bracket-pair-colorizer-2.forceIterationColorCycle": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#3691ff",
+    "activityBar.activeBorder": "#f6f4e5",
+    "activityBar.background": "#3691ff",
+    "activityBar.foreground": "#131642",
+    "activityBar.inactiveForeground": "#f7f7f799",
+    "activityBarBadge.background": "#f5e5f6",
+    "activityBarBadge.foreground": "#e2324b",
+    "statusBar.background": "#1b72cb",
+    "statusBar.foreground": "#f7f7f7",
+    "statusBar.debuggingBackground": "#ff6600",
+    "statusBar.debuggingForeground": "#181818",
+    "statusBarItem.hoverBackground": "#3691ff",
+    "titleBar.activeBackground": "#1b72cb",
+    "titleBar.activeForeground": "#f7f7f7",
+    "titleBar.inactiveBackground": "#1b72cb99",
+    "titleBar.inactiveForeground": "#f7f7f799",
+    "scrollbarSlider.background": "#3691ff",
+    "scrollbarSlider.activeBackground": "#ff4b5c",
+    "scrollbarSlider.hoverBackground": "#81b214",
+    "terminal.integrated.fontFamily": "'Operator Mono Lig'",
+    "terminal.integrated.fontSize": 15,
+    /* https://glitchbone.github.io/vscode-base16-term/*/
+    "terminal.background": "#090300"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.autoSave": "off",
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "workbench.enableExperiments": false,
+  "code-runner.enableAppInsights": false,
+  "files.exclude": {
+    ".idea": true,
+    ".vscode": true,
+    "node_modules": true
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "update.mode": "none",
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "Zowe-DS-Persistent": {
+    "persistence": true,
+    "favorites": [],
+    "history": [],
+    "sessions": [
+      "LocalCOBOL"
+    ],
+    "fileHistory": [
+      "[LOCALCOBOL]: Z84633.JCL(HELLO)",
+      "[LOCALCOBOL]: Z84633.CBL(CBL0001)",
+      "[LOCALCOBOL]: Z84633.CBL(HELLO)"
+    ],
+    "searchHistory": [
+      "Z84633"
+    ]
+  },
+  "Zowe-USS-Persistent": {
+    "persistence": true,
+    "favorites": [],
+    "history": [],
+    "sessions": [
+      "LocalCOBOL"
+    ],
+    "fileHistory": []
+  },
+  "Zowe-Jobs-Persistent": {
+    "persistence": true,
+    "favorites": [],
+    "history": [],
+    "sessions": [
+      "LocalCOBOL"
+    ],
+    "fileHistory": []
+  },
+  "files.associations": {
+    "*.COBOL*": "cobol",
+    "*.COB*": "cobol",
+    "*.COBCOPY*": "cobol",
+    "*.COPYBOOK*": "cobol",
+    "*.COPY*": "cobol",
+    "*.PL1*": "pl1",
+    "*.PLI*": "pl1",
+    "*.INC*": "pl1",
+    "*.INCLUDE*": "pl1",
+    "*.JCL*": "jcl",
+    "*.ASM*": "hlasm",
+    "*.ASSEMBLE*": "hlasm",
+    "*.HLASM*": "hlasm",
+    "*.HLA*": "hlasm",
+    "*.py": "python"
+  },
+  "terminal.integrated.fontSize": 16,
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 120,
+  "window.zoomLevel": 1
+}
